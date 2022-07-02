@@ -6,7 +6,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 SoftwareSerial gsm(9,10);
 SoftwareSerial ss(6,5);
 String phone_no1 = "8971504592";
-//String phone_no2 = "9482886419";
+//String phone_no2 = """;
 
 void sendsms (String phone_no1,float level);
 void sendsms1 (String phone_no2,float level);
